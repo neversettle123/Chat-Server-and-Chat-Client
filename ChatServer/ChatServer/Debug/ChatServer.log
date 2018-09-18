@@ -1,0 +1,70 @@
+﻿生成启动时间为 2018/9/18 17:20:18。
+     1>项目“H:\ChatServer\ChatServer\ChatServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ChatServer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ChatServer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ChatServer.cpp HttpServer.cpp
+         HttpServer.cpp
+     1>h:\chatserver\chatserver\httpserver.h(27): warning C4091: “typedef ”: 没有声明变量时忽略“HttpMem”的左侧
+     1>h:\chatserver\chatserver\httpserver.h(36): warning C4091: “typedef ”: 没有声明变量时忽略“WndMem”的左侧
+     1>h:\chatserver\chatserver\httpserver.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“UserInfo”的左侧
+     1>h:\chatserver\chatserver\httpserver.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(172): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(177): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(179): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(187): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(190): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(194): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(195): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(196): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(197): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : 参见“strtok”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(199): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : 参见“strtok”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(206): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(210): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(216): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(220): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(221): warning C4018: “<”: 有符号/无符号不匹配
+     1>h:\chatserver\chatserver\httpserver.cpp(240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(242): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(244): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(245): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(246): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(247): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(248): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>h:\chatserver\chatserver\httpserver.cpp(250): warning C4172: 返回局部变量或临时变量的地址
+         ChatServer.cpp
+     1>h:\chatserver\chatserver\httpserver.h(27): warning C4091: “typedef ”: 没有声明变量时忽略“HttpMem”的左侧
+     1>h:\chatserver\chatserver\httpserver.h(36): warning C4091: “typedef ”: 没有声明变量时忽略“WndMem”的左侧
+     1>h:\chatserver\chatserver\httpserver.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“UserInfo”的左侧
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\ChatServer.res" ChatServer.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\ChatServer\Debug\ChatServer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\ChatServer\Debug\ChatServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\ChatServer\Debug\ChatServer.lib" /MACHINE:X86 Debug\ChatServer.res
+         Debug\ChatServer.obj
+         Debug\HttpServer.obj
+         Debug\stdafx.obj
+         LINK : 没有找到 H:\ChatServer\Debug\ChatServer.exe 或上一个增量链接没有生成它；正在执行完全链接
+         ChatServer.vcxproj -> H:\ChatServer\Debug\ChatServer.exe
+     1>已完成生成项目“H:\ChatServer\ChatServer\ChatServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.67
